@@ -11,6 +11,17 @@ public class HomeController {
     public String home() {
         return "home";
     } 
-    
+    @GetMapping("/plates")
+    public String plates() {
+        return "plates";
+    } 
+    @GetMapping("/bowls")
+    public String bowls() {
+        return "bowls";
+    } 
+    @GetMapping("/contact-us")
+    public String ConatctUs() {
+        return "contact-us";
+    } 
     
 }
